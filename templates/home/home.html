@@ -1,0 +1,44 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% block title %}
+<br>
+<br>
+<div class="row">
+    <div class="col-sm-12">
+        <marquee class="box-2"><h3 style="text-transform: uppercase; color:whitesmoke; font-size: medium;">Bienvenue à la société ivoirienne de noix de cajou</h3></marquee>
+    </div>
+</div>
+<br>
+<br>
+<div class="row">
+    <div class="col-sm-12">
+        <center><h2 style="text-transform: uppercase; color: olive;" class="box-3">Interface d'administration</h2></center>
+    </div>
+</div>
+{% endblock %}
+{% block content%}
+<br>
+<br>
+<br>
+<br>
+<div class="row box-1">
+    <div class="col-sm-5">
+        <img src="{% static 'img/logo.jpg' %}" alt="logo-INC" style="width: 35%; height: auto;" class="img-responsive">
+    </div>
+    <div class="col-sm-7">
+        <br>
+        La noix de cajou ou anacarde est le fruit de l'anacardier (Anacardium occidentale), 
+        arbre originaire d’Amérique tropicale. C’est une drupe dont la coque contient une résine caustique et allergisante, 
+        avec à l’intérieur une amande comestible qui après avoir subi une série d’opérations de séchage, chauffage, décorticage et torréfaction 
+        acquiert toutes ses qualités gustatives. Elle peut alors être consommée telle quelle ou servir en cuisine (comme l'arachide).
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="col-sm-12">
+        <center><a href="content/" class="btn btn-warning" style="text-transform: uppercase;">Cliquer ici pour commencer</a></center>
+    </div>
+</div>
+{% endblock %}
